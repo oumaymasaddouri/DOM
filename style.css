@@ -1,0 +1,254 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Klee One", cursive;
+  color: #1d1d1f;
+}
+
+.logo {
+  height: 80px;
+  width: 100px;
+  margin-right: 70px;
+}
+
+footer {
+  background-color: black;
+  color: rgb(112, 112, 112);
+  height: 200px;
+}
+
+tr td img {
+  height: 250px;
+  width: 250px;
+  margin-left: 100px;
+  margin-top: 70px;
+}
+.nav_bar {
+  display: flex;
+  background-color: #b8e5fa;
+  border: none;
+  height: 80px;
+  opacity: 0.5;
+  margin-bottom: 50px;
+}
+.bar {
+  display: flex;
+  margin: 25px;
+  margin-left: 50px;
+}
+.bar li {
+  margin-right: 75px;
+  text-decoration: none;
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(255, 255, 255);
+}
+.bug {
+  width: 30px;
+  height: 30px;
+}
+
+.a {
+  margin-left: 26%;
+}
+.b {
+  display: flex;
+  float: left;
+  margin-top: 30px;
+  margin-left: 30%;
+}
+
+.d {
+  display: flex;
+
+  margin-top: 60px;
+  margin-left: 40%;
+}
+.paymentm {
+  display: flex;
+  position: absolute;
+  margin-right: 10px;
+  margin-top: -20px;
+}
+.png img {
+  margin-top: 30px;
+  width: 60px;
+  height: 40px;
+}
+.png li {
+  list-style-type: none;
+  margin-right: 10px;
+}
+.png {
+  display: flex;
+  margin-top: 80px;
+  position: absolute;
+  margin-right: 200px;
+}
+h2 {
+  margin-left: 20px;
+  font-size: 30px;
+
+  color: rgb(255, 255, 255);
+}
+.c {
+  display: flex;
+  margin-top: 40px;
+}
+.c a {
+  color: rgb(145, 139, 139);
+  margin-left: 150px;
+  font-size: 22px;
+  font-family: "Bebas Neue", cursive;
+}
+.c a:hover {
+  color: white;
+}
+
+.bar input {
+  border: 1px solid #c4c4c4;
+  height: 22px;
+  width: 190px;
+  font-size: 13px;
+  padding: 4px 4px 4px 4px;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  box-shadow: 0px 0px 8px #d9d9d9;
+  -moz-box-shadow: 0px 0px 8px #d9d9d9;
+  -webkit-box-shadow: 0px 0px 8px #d9d9d9;
+}
+#del,
+#del1,
+#del2,
+#del3,
+#del4 {
+  background-color: #0f1ffc;
+  border-radius: 10px;
+  border: 4px double #cccccc;
+  color: #eeeeee;
+  text-align: center;
+  font-size: 20px;
+
+  width: 150px;
+  cursor: pointer;
+  height: 50px;
+}
+
+.name1 {
+  display: flex;
+  margin-right: 30px;
+}
+
+#items_numb {
+  position: absolute;
+  display: flex;
+  margin-top: -13px;
+  font-size: 20px;
+  font-style: oblique;
+}
+
+.check {
+  display: flex;
+  margin-top: 100px;
+  margin-left: 60%;
+  margin-bottom: 50px;
+}
+.checkout {
+  position: relative;
+  display: inline-flex;
+  width: 180px;
+  height: 55px;
+  margin: 0 15px;
+  perspective: 1000px;
+}
+.checkout a {
+  font-size: 19px;
+  letter-spacing: 1px;
+  transform-style: preserve-3d;
+  transform: translateZ(-25px);
+  transition: transform 0.25s;
+  font-family: "Montserrat", sans-serif;
+}
+.checkout a:before,
+.checkout a:after {
+  position: absolute;
+  content: "Checkout";
+  height: 55px;
+  width: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 5px solid black;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.checkout a:before {
+  color: #fff;
+  background: #000;
+  transform: rotateY(0deg) translateZ(25px);
+}
+.checkout a:after {
+  color: #000;
+  transform: rotateX(90deg) translateZ(25px);
+}
+.checkout a:hover {
+  transform: translateZ(-25px) rotateX(-90deg);
+}
+
+.total {
+  display: flex;
+  border: 2px solid black;
+  width: 280px;
+  height: 40px;
+  justify-content: space-around;
+  padding-top: 15px;
+}
+#plus,
+#minus,
+#plus1,
+#minus1,
+#plus2,
+#minus2,
+#plus3,
+#minus3,
+#plus4,
+#minus4 {
+  background-color: #646664;
+  border-radius: 4px;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  margin-left: 20px;
+  margin-right: 20px;
+  cursor: pointer;
+  width: 40px;
+  height: 30px;
+}
+
+.like {
+  display: flex;
+  position: relative;
+  top: 155px;
+  left: 5%;
+  background-color: #646664;
+  border-radius: 4px;
+  border: none;
+  color: white;
+  padding: 15px 70px 15px 70px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  margin-left: 150px;
+  cursor: pointer;
+  width: 50px;
+}
